@@ -88,6 +88,12 @@ header {
     font-weight: 700;
     line-height: 28px;
     background-color: transparent;
+
+}
+
+button:hover {
+    border-color: green;
+    color: green;
 }
 
 /* section 2 */
@@ -133,4 +139,40 @@ h6 {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+}
+
+.section2_article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.artilce_header {
+    color: #372D23;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    
+}
+
+.article_text {
+    color: #855C52;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.section2_article_button{
+    width: calc(221 / 1440 * 100%);
+    margin: 0 auto;
+    background: #ED6C30;
+    padding: 12px 40px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
 }
