@@ -18,7 +18,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
     top: 0;
-    
+
 }
 
 .header_ul {
@@ -88,4 +88,49 @@ header {
     font-weight: 700;
     line-height: 28px;
     background-color: transparent;
+}
+
+/* section 2 */
+.section2 {
+    padding: 80px;
+    display: flex;
+    column-gap: 40px;
+}
+
+.card {
+    height: 320px;
+    position: relative;
+}
+
+.card_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_box {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    bottom: 0;
+    padding: 28px 69px;
+    background: rgba(55, 45, 35, 0.8);
+    backdrop-filter: blur(2px);
+}
+
+.fa-utensils {
+    font-size: 32px;
+    color: #ED6C30;
+}
+
+/* card box is ori surati  svg imitom aris ro eg ori surati premiumi iyo fontaswome ze da sxva saitidan ufasod svg vipove feri da font size iqve chavuwere idieashi erti-da-igivea ubralod is svg ia da imedia shecdomashi ar chamitvli :)  */
+h6 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
